@@ -3,7 +3,7 @@ document.getElementById('chatForm').addEventListener('submit', async function(e)
 
     const inputField = document.getElementById('userInput');
     const sendBtn = document.getElementById('sendBtn');
-    const chatBox = document.getElementById('chatBox');
+    const chatBox = document.getElementById('chatbox');
     const modeSelect = document.getElementById('mode');
 
     const message = inputField.value.trim();
@@ -96,7 +96,7 @@ document.getElementById('chatForm').addEventListener('submit', async function(e)
 });
 
 function appendMessage(text, sender) {
-    const chatBox = document.getElementById('chatBox');
+    const chatBox = document.getElementById('chatbox');
     
     const wrapper = document.createElement('div');
     wrapper.classList.add('message-wrapper', sender);

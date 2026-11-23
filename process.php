@@ -3,9 +3,6 @@ header('Content-Type: text/event-stream');
 header('Cache-Control: no-cache');
 header('Connection: keep-alive');
 header('X-Accel-Buffering: no');
-header('Content-Type: text/event-stream');
-header('Cache-Control: no-cache');
-header('Connection: keep-alive');
 
 @ini_set('zlib.output_compression', 0);
 @ini_set('implicit_flush', 1);
